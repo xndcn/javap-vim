@@ -30,4 +30,5 @@ function! JavapCurrentBuffer()
     normal! ggdd
     set filetype=java " TODO: doesn't work for zipfile:*/*.class
     setlocal nobin
+    setlocal nomod ro
 endfunction
